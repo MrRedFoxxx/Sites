@@ -6,7 +6,7 @@ import time
 def run_artel_prod():
     """Запуск сайта Artel-Prod"""
     os.chdir("Artel-Prod")
-    subprocess.run(["python", "main.py"])
+    subprocess.run(["python", "api/main.py"])
 
 def run_rank_ai():
     """Запуск сайта Rank-AI"""

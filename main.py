@@ -6,12 +6,12 @@ import time
 def run_artel_prod():
     """Запуск сайта Artel-Prod"""
     os.chdir("Artel-Prod")
-    subprocess.run(["python", "api/main.py"])
+    subprocess.run(["python3", "api/main.py"])
 
 def run_rank_ai():
     """Запуск сайта Rank-AI"""
     os.chdir("Rank_AI")
-    subprocess.run(["python", "main.py"])
+    subprocess.run(["python3", "main.py"])
 
 if __name__ == '__main__':
     # Создаем процессы для каждого приложения
